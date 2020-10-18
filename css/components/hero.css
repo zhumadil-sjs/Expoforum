@@ -1,4 +1,5 @@
 .hero{
     background: url(/img/bgc.png)center no-repeat;
     box-sizing: border-box;
+    margin: auto;
 }

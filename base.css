@@ -1,6 +1,7 @@
 body {
     max-width: 1920px;
     margin: 0;
+    display: inline-block;
 }
 .flex{
 display: flex;
