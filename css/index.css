@@ -1,6 +1,5 @@
 @import './classes.css';
-@import '/base.css';
-@import '/css/components/header.css';
-@import '/css/components/hero.css';
-@import '/css/components/variabless.css';
-@import './index.css';
+@import './base.css';
+@import './components/hero.css';
+@import './components/header.css';
+@import './components/variabless.css';

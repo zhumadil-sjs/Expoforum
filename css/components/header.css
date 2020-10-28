@@ -1,4 +1,37 @@
-.header{
-    padding-top: 35px;
-position: absolute;
+.header {
+    position: absolute;
+    margin: 0;
+}
+
+.header__content {
+    color: var(--white);
+    max-width: 1920px;
+    height: 80px;
+}
+
+.header__logo {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    background: rgba(0, 91, 193, 0.6);
+}
+
+.logo__link {
+    padding-left: 40px;
+    padding-top: 11px;
+}
+
+.nav__menu {
+    margin: 0;
+    padding-left: 555px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.nav__item {
+    padding-left: 14px;
+    padding-right: 14px;
 }

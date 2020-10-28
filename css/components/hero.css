@@ -1,5 +1,42 @@
-.hero{
-    background: url(/img/bgc.png)center no-repeat;
+.hero {
+    color: var(--white);
+    background: url('/img/bgc.png')center no-repeat;
     box-sizing: border-box;
-    margin: auto;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
 }
+
+.hero__content {
+    padding-top: 79px;
+    /* width: 825px; */
+}
+
+.hero__fon {
+    padding-top: 79px;
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+}
+
+.hero__title {
+    margin: 0;
+    padding-top: 202px;
+    padding-left: 190px;
+    font-family: Oswald;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 0.01em;
+}
+
+.hero__text {
+    padding-left: 190px;
+    padding-top: 40px;
+    font-family: Open Sans, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.hero__button {}
