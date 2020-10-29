@@ -7,8 +7,10 @@
     <title>TransLight</title>
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick.css" />
+
 </head>
 
 <body>
@@ -70,16 +72,113 @@
         <div class="container">
             <div class="hero__content">
                 <div class="hero__fon">
-                    <h1 class="hero__title">Светотехническое оборудовани в Петербурге</h1>
+                    <h1 class="hero__title">Светотехническое оборудовани <br> в Петербурге</h1>
                     <p class="hero__text">Продажа, аренда светотехнического оборудования.
-                        Оформление официальных мероприятий под ключ.</p>
-                    <div class="hero__butoon">
-                      <button class="hero__btn">ПЕРЕЙТИ</button>
-                    </div>
+                        <br> Оформление официальных мероприятий под ключ.
+                    </p>
+                    <a href=""> <button class="hero__btn">ПЕРЕЙТИ</button>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="projects">
+        <div class="container">
+
+            <div class="projects__content flex">
+                <div class="projects__logo">
+                    <svg width="100" height="16" viewBox="0 0 100 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1.5" x2="100" y2="1.5" stroke="#005BC1" stroke-width="3" />
+                        <line x1="50" y1="14.5" x2="100" y2="14.5" stroke="#005BC1" stroke-width="3" />
+                    </svg>
+                </div>
+                <h1 class="projects__title">Наши проекты</h1>
+            </div>
+            <div class="projects__block flex">
+                <div class="block">
+                    <img class="projects__img" src="./img/projekts.png" alt="">
+                    <div class="comment">
+                        <h2 class="projects__subtitle" p>ССК “ОЛИМП”</h2>
+                        <p class="projects__text">Световое оформление
+                            форума “Шубы-2019”</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <img class="projects__img" src="./img/projekts.png" alt="">
+                    <div class="comment">
+                        <h2 class="projects__subtitle" p>ССК “ОЛИМП”</h2>
+                        <p class="projects__text">Световое оформление
+                            форума “Шубы-2019”</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <img class="projects__img" src="./img/projekts.png" alt="">
+                    <div class="comment">
+                        <h2 class="projects__subtitle" p>ССК “ОЛИМП”</h2>
+                        <p class="projects__text">Световое оформление
+                            форума “Шубы-2019”</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <img class="projects__img" src="./img/projekts.png" alt="">
+                    <div class="comment">
+                        <h2 class="projects__subtitle" p>ССК “ОЛИМП”</h2>
+                        <p class="projects__text">Световое оформление
+                            форума “Шубы-2019”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="" class="button"></a>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__content flex">
+                <div class="catalog__logo">
+                    <svg width="100" height="16" viewBox="0 0 100 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1.5" x2="100" y2="1.5" stroke="#005BC1" stroke-width="3" />
+                        <line x1="50" y1="14.5" x2="100" y2="14.5" stroke="#005BC1" stroke-width="3" />
+                    </svg>
+                </div>
+                <h3 class="catalog__title">Каталог продукции</h3>
+            </div>
+<div class="catalog__subtitles flex">
+    <h4 class="subtitle1">Robe</h4>
+    <h4 class="subtitle2">Compulite</h4>
+</div>
+            <div class="catalog__col flex">
+                <div class="col-4">
+                    <img src="/img/catalog-img1.png" alt="">
+                    <div class="catalog__comment">
+                      <h5 class="catalog__text">Статичные светодиодные приборы</h5>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="/img/catalog-img2.png" alt="">
+                    <div class="catalog__comment">
+                      <h5 class="catalog__text2">Контроллеры</h5>
+                    </div>
+                </div> <div class="col-4">
+                    <img src="/img/catalog-img3.png" alt="">
+                    <div class="catalog__comment">
+                      <h5 class="catalog__text3">Аксессуары</h5>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </section>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script>
+        $('.projects__block').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+        });
+    </script>
 </body>
 
 </html>

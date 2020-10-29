@@ -24,14 +24,14 @@
 .nav__menu {
     margin: 0;
     padding-left: 735px;
+}
+
+.nav__item {
+    padding: 30px 14px;
+    z-index: 1;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-}
-
-.nav__item {
-    padding-left: 14px;
-    padding-right: 14px;
 }

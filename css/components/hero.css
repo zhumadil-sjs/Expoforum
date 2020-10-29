@@ -20,6 +20,7 @@
 }
 
 .hero__title {
+    white-space: nowrap;
     margin: 0;
     padding-top: 202px;
     padding-left: 190px;
@@ -30,13 +31,29 @@
 }
 
 .hero__text {
+    white-space: nowrap;
     padding-left: 190px;
     padding-top: 40px;
     font-family: Open Sans, sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-
 }
-
-.hero__button {}
+.hero__btn {
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 190px;
+    width: 150px;
+    background: none;
+    color: var(--white);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
