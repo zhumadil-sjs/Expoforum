@@ -128,9 +128,6 @@
                     </div>
                 </div>
             </div>
-            <div class="btn">
-                <a href="" class="button"></a>
-            </div>
         </div>
     </section>
     <section class="catalog">
@@ -144,30 +141,77 @@
                 </div>
                 <h3 class="catalog__title">Каталог продукции</h3>
             </div>
-<div class="catalog__subtitles flex">
-    <h4 class="subtitle1">Robe</h4>
-    <h4 class="subtitle2">Compulite</h4>
-</div>
+            <div class="catalog__subtitles flex">
+                <h4 class="subtitle1">Robe</h4>
+                <h4 class="subtitle2">Compulite</h4>
+            </div>
             <div class="catalog__col flex">
                 <div class="col-4">
                     <img src="/img/catalog-img1.png" alt="">
                     <div class="catalog__comment">
-                      <h5 class="catalog__text">Статичные светодиодные приборы</h5>
+                        <h5 class="catalog__text">Статичные светодиодные приборы</h5>
                     </div>
                 </div>
                 <div class="col-4">
                     <img src="/img/catalog-img2.png" alt="">
                     <div class="catalog__comment">
-                      <h5 class="catalog__text2">Контроллеры</h5>
+                        <h5 class="catalog__text2">Контроллеры</h5>
                     </div>
-                </div> <div class="col-4">
+                </div>
+                <div class="col-4">
                     <img src="/img/catalog-img3.png" alt="">
                     <div class="catalog__comment">
-                      <h5 class="catalog__text3">Аксессуары</h5>
+                        <h5 class="catalog__text3">Аксессуары</h5>
                     </div>
                 </div>
             </div>
-          
+
+        </div>
+    </section>
+    <section class="rent">
+        <div class="container">
+            <div class="rent__content flex">
+                <div class="rent__logo">
+                    <svg width="100" height="16" viewBox="0 0 100 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1.5" x2="100" y2="1.5" stroke="#005BC1" stroke-width="3" />
+                        <line x1="50" y1="14.5" x2="100" y2="14.5" stroke="#005BC1" stroke-width="3" />
+                    </svg>
+                </div>
+                <h3 class="rent__title">Аренда оборудования</h3>
+            </div>
+            <div class="rent__block flex">
+                <div class="rent__block-inf">
+                    <p class="block-inf-text">
+                        Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей,
+                        таких как Robe, SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting, MobilTech,
+                        Lampo, Martin, Spotlight, Compulite, Eurolite и др.
+                    </p>
+                </div>
+                <div class="rent__div">
+                    <div class="rent__block-content">
+                        <h5 class="rent__h5">
+                            Новое оборудование, предоставляемое в аренду:
+                        </h5>
+                        <div class="rent__container flex">
+                            <img src="/img/rent.png" alt="" class="rent__img">
+                            <div class="rent__div-text">
+   
+                    <div class="rent__slide">
+                        <h6 class="rent__div-h6">Robe Robin ParFect 100</h6>
+                        <ul class="rent__slide-menu">
+        
+                            <li class="rent__slide-link">Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
+                            <li class="rent__slide-link"> Угол раскрытия 7°</li>
+                            <li class="rent__slide-link"> В комплекте рассеивающая линза 40°</li>
+                            <li class="rent__slide-link"> Потребляемая мощность 200 Вт</li>
+                        </ul>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
     <script src="./jquery-3.5.1.min.js"></script>
@@ -179,6 +223,15 @@
             slidesToScroll: 2,
         });
     </script>
+
+
+<!-- <script>
+        $('.rent__container').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 3,
+        });
+    </script> -->
 </body>
 
 </html>

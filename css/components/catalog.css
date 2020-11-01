@@ -38,7 +38,7 @@
 }
 .subtitle1{
     margin: 0;
-padding-left: 31px;
+    padding-left: 31px;
 }
 .subtitle2{
     margin: 0;
@@ -49,10 +49,9 @@ padding-left: 31px;
     color: var(--blue);
 }
 .catalog__col {
+    padding-top: 55px;
     margin: 0;
-    max-width: 1110px;
     justify-content: space-between;
-    white-space: pre-wrap;
 }
 
 .col-4 {
@@ -71,7 +70,8 @@ padding-left: 31px;
     background: var(--blue);
 }
 
-.catalog__text, .catalog__text2,
+.catalog__text, 
+.catalog__text2,
 .catalog__text3  {
     margin: 0;
     font-family: Oswald, sans-serif;
@@ -87,6 +87,7 @@ padding-left: 31px;
 .catalog__text{
     padding-top: 15px;
 }
-.catalog__text2, .catalog__text3{
+.catalog__text2, 
+.catalog__text3{
     padding-top: 30px;
 }
