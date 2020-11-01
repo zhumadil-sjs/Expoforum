@@ -82,7 +82,6 @@
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    /* line-height: 19px; */
     color: var(--black);
     padding-left: 25px;
     padding-top: 14px;
@@ -115,12 +114,3 @@
     border: none;
     outline: none;
 }
-/* }
-.slick-next.slick-arrow::before {
-    content: '';
-    position: absolute;
-    top: -19px;
-    width: 35px;
-    height: 45px;
-   border: 1px solid black;
-} */
