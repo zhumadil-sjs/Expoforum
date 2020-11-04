@@ -47,21 +47,23 @@
     height: 195px;
 }
 
-.rent__div {
-    margin-top: 40px;
-    margin-left: 95px;
-    right: 0;
+.rent__item {
+    margin: 40px 0 108px 90px;
+    border: 3px solid var(--blue);
+    box-sizing: border-box;
     width: 665px;
     height: 394px;
-    border: 3px solid var(--blue);
-    color: var(--black);
-    box-sizing: border-box;
 }
 
-.rent__h5 {
-    padding-left: 30px;
+.rent__item-content {
+    max-width: 615px;
+    max-height: 334px;
+    margin: 30px 20px 30px 30px;
+}
+
+.rent__item-title {
     margin: 0;
-    padding-top: 42px;
+    padding-top: 12px;
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
@@ -71,22 +73,20 @@
     text-transform: uppercase;
 }
 
-.rent__container {
-    position: relative;
-}
-
+/* .rent-item-png {} */
 .rent__img {
     padding-top: 45px;
-    padding-left: 30px;
-    margin: 0;
     width: 255px;
     height: 250px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
-.rent__div-h6 {
-    margin: 0;
-    font-family: Oswald;
+/* .rent__item-slide {} */
+
+.rent__item-subtitle {
+    margin-left: 30px;
+    padding-top: 45px;
+    font-family: Oswald, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -96,58 +96,25 @@
     color: var(--black);
 }
 
-.rent__slide-text {
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-/* .slick-prev.slick-arrow{
-    position: absolute;
-    right: 54px;
-    top: -45px;
-    font-size: 0;
-    height: 55px;
-    width: 55px;
-    background: url('/img/svg/slider-menu__button.svg');
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-.slick-next.slick-arrow {
-    position: absolute;
-    right: 0;
-    top: -45px;
-    font-size: 0cm;
-    height: 55px;
-    width: 55px;
-    background: url('/img/svg/slider-menu__button1.svg');
-    cursor: pointer;
-    border: none;
-    outline: none;
-} */
-.rent__slide {
-    position: relative;
-    margin-top: 114px;
-    width: 310px;
-    height: 171px;
-}
-
 .rent__slide-menu {
-    position: absolute;
-
-}
-
-.rent__slide-link {
-    margin-bottom: 30px;
+    padding: 30px 20px 74px 45px;
+    width: 310px;
+    height: 152px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
 }
-.rent__slide-link:last-child{
-    margin: 0;
+
+.rent__slide-link2 {
+    padding-top: 20px;
 }
-.rent__slide-link:first-child{
-    margin-top: 30px;
+
+.rent__slide-link3 {
+    padding-top: 20px;
+}
+
+.rent__slide-link4 {
+    padding-top: 20px;
 }

@@ -71,7 +71,8 @@
     width: 200px;
     height: 34px;
 }
-.slick-prev.slick-arrow{
+
+.slick-prev.slick-arrow {
     position: absolute;
     right: 54px;
     top: -45px;
@@ -83,6 +84,7 @@
     border: none;
     outline: none;
 }
+
 .slick-next.slick-arrow {
     position: absolute;
     right: 0;

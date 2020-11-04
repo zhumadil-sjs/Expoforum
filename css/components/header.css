@@ -27,6 +27,7 @@
 }
 
 .nav__item {
+    list-style: none;
     padding: 30px 14px;
     z-index: 1;
     font-family: Open Sans;
