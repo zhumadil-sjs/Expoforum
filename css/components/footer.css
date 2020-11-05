@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 120px;
+    background-color: var(--whiteBlue);
+}
+
+.footer__content {
+    /* background-color: var(--whiteBlue); */
+}
+
+.footer__number {
+    padding-top: 36px;
+    margin: 0;
+    width: 122px;
+    height: 27px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer__title {
+    width: 610px;
+    height: 19px;
+    margin: 40px 123px 29px 128px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+}
+
+.footer__mail {}
+
+.footer__line {}
+
+.footer__nav {}
+
+.footer__item {}
+
+.footer__link {}
+
+.footer__border {}
+
+.footer__text {}
