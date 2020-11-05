@@ -81,6 +81,16 @@
     width: 225px;
     height: 38px;
 }
+.news__link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: var(--black);
+    padding-top: 21px;
+}
 
 .news__direction-3 {
     padding-top: 15px;

@@ -1,6 +1,8 @@
 .footer {
+    height: 255px;
     margin-top: 120px;
     background-color: var(--whiteBlue);
+    box-sizing: border-box;
 }
 
 .footer__content {
@@ -11,7 +13,7 @@
 .footer__number {
     padding-top: 36px;
     margin: 0;
-    width: 122px;
+    width: 123px;
     height: 27px;
     font-family: Oswald;
     font-style: normal;
@@ -36,16 +38,80 @@
     color: var(--white);
 }
 
-.footer__mail {}
+.footer__mail {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: var(--white);
+    margin-top: 40px;
+}
 
-.footer__line {}
+.footer__line,
+.footer__border {
+    border: 1px solid var(--white);
+    width: 1110px;
+}
 
-.footer__nav {}
+.footer__row {
+    height: 50px;
+    width: 560px;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+}
 
-.footer__item {}
+.col-4 {
+    width: 33.33%;
+}
 
-.footer__link {}
+.footer__link-1 {
+    padding: 25px 107px 10px 0;
+}
 
-.footer__border {}
+.footer__link-2 {
+    padding: 0 134px 25px 0;
+}
 
-.footer__text {}
+.footer__link-3 {
+    padding: 25px 139px 10px 0;
+}
+
+.footer__link-4 {
+    padding: 0 141px 25px 0;
+}
+
+.footer__link-5 {
+    padding: 25px 70px 10px 0;
+}
+
+.footer__link-6 {
+    padding: 0;
+}
+
+
+
+.footer__border {
+    margin-top: 50px;
+}
+
+.footer__text {
+    padding: 25px 0 25px 0;
+    justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+}
+
+.end__text {
+    margin: 0;
+}
