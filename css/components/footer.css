@@ -4,7 +4,8 @@
 }
 
 .footer__content {
-    /* background-color: var(--whiteBlue); */
+    margin: 0;
+    padding: 0;
 }
 
 .footer__number {
